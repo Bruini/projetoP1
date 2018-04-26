@@ -158,8 +158,25 @@ interno{
     cursor: pointer;
     background: #2E7D32;
 }
+
+#enviar{
+    border-radius: 28px;
+    color: #fff;
+    font-size: 16px;
+    background: #13b045;
+    padding: 10px 20px;
+    text-decoration: none;
+    border: none;
+}
+#enviar:hover{
+    cursor: pointer;
+    background: #2E7D32;
+}
 .texto{
     text-align: justify;
+}
+.formulario{
+    height: 250px;
 }
 .rodape {
     background: #2E7D32;
