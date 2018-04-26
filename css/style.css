@@ -5,11 +5,13 @@
 body {
     margin: 0;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-image: url('../img/site/back.jpg');
 }
 
 a {
     color: #000;
-    text-decoration: none; /* no underline */
+    text-decoration: none;
+    /* no underline */
 }
 
 .container {
@@ -24,11 +26,12 @@ a {
 .conteudo {
     height: 200px;
 }
-.logo{
+
+.logo {
     width: 23%;
 }
-.logo,
-.menu-superior {
+
+.logo, .menu-superior {
     float: left;
 }
 
@@ -92,22 +95,21 @@ a {
     background: #B9F6CA;
 }
 
-.novidades ul,.mais-vendidos ul {
+.novidades ul, .mais-vendidos ul {
     list-style: none;
     padding: 0;
 }
 
-.novidades li,.mais-vendidos li {
+.novidades li, .mais-vendidos li {
     width: 31%;
     display: inline-table;
     text-align: center;
 }
 
-interno{
+interno {
     width: 100%;
     background: #B9F6CA;
 }
-
 
 .interno ul {
     list-style: none;
@@ -127,25 +129,30 @@ interno{
     background: #69F0AE;
 }
 
-.itens{
+.itens {
     text-align: center;
 }
-.titulo{
+
+.titulo {
     margin-left: 10px;
     font-weight: bold;
 }
-.compra{
+
+.compra {
     height: 400px;
 }
-.imgproduto{
+
+.imgproduto {
     float: left;
     width: 35%;
 }
-.compra-produto{
+
+.compra-produto {
     float: left;
     width: 60%;
 }
-#comprar{
+
+#comprar {
     border-radius: 28px;
     color: #fff;
     font-size: 20px;
@@ -154,12 +161,13 @@ interno{
     text-decoration: none;
     border: none;
 }
-#comprar:hover{
+
+#comprar:hover {
     cursor: pointer;
     background: #2E7D32;
 }
 
-#enviar{
+#enviar {
     border-radius: 28px;
     color: #fff;
     font-size: 16px;
@@ -168,16 +176,20 @@ interno{
     text-decoration: none;
     border: none;
 }
-#enviar:hover{
+
+#enviar:hover {
     cursor: pointer;
     background: #2E7D32;
 }
-.texto{
+
+.texto {
     text-align: justify;
 }
-.formulario{
+
+.formulario {
     height: 250px;
 }
+
 .rodape {
     background: #2E7D32;
     width: 100%;
@@ -185,29 +197,38 @@ interno{
     bottom: 0;
     position: relative;
 }
+
 .social {
-    color:#fff;
+    color: #fff;
     align-items: center;
     justify-content: center;
     display: flex;
 }
-.social ul{
+
+.social ul {
     align-items: center;
     justify-content: center;
     display: flex;
     list-style-type: none;
 }
-.social a{
+
+.social a {
     color: #fff;
     text-decoration: none;
     display: flex;
 }
-.social ul li{
+
+.social ul li {
     align-items: center;
     justify-content: center;
     display: flex;
     padding: 0 10px 0 10px;
 }
-.social ul li img{
+
+.social ul li img {
     padding-right: 5px;
+}
+
+.formas {
+    padding: 10px, 10px, 30px, 10px;
 }
