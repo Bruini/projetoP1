@@ -158,6 +158,9 @@ interno{
     cursor: pointer;
     background: #2E7D32;
 }
+.texto{
+    text-align: justify;
+}
 .rodape {
     background: #2E7D32;
     width: 100%;
