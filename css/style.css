@@ -31,7 +31,8 @@ a {
     width: 23%;
 }
 
-.logo, .menu-superior {
+.logo,
+.menu-superior {
     float: left;
 }
 
@@ -83,8 +84,12 @@ a {
 .banner {
     float: left;
     width: 77%;
+    height: 179px;
 }
-
+.banner img{
+    width: 100%;
+    height: 100%;
+}
 .produtos {
     height: 470px;
 }
@@ -95,12 +100,14 @@ a {
     background: #B9F6CA;
 }
 
-.novidades ul, .mais-vendidos ul {
+.novidades ul,
+.mais-vendidos ul {
     list-style: none;
     padding: 0;
 }
 
-.novidades li, .mais-vendidos li {
+.novidades li,
+.mais-vendidos li {
     width: 31%;
     display: inline-table;
     text-align: center;
@@ -175,6 +182,7 @@ interno {
     padding: 10px 20px;
     text-decoration: none;
     border: none;
+    width: 20%;
 }
 
 #enviar:hover {
@@ -187,7 +195,16 @@ interno {
 }
 
 .formulario {
-    height: 250px;
+    height: 455px;
+}
+
+.formulario label {
+    width: 200px;
+    display: inline-block;
+    margin: 10px 0;
+}
+.formulario input{
+    width: 30%;
 }
 
 .rodape {
